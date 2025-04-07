@@ -1,0 +1,70 @@
+{
+  "hash": "f6ae90f4",
+  "configHash": "969c76c3",
+  "lockfileHash": "9b04550f",
+  "browserHash": "40581c83",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "74d87e22",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "824eb4c1",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "12790e1f",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "509ae9f8",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "e64d24fe",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "a771ecb3",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "216ab030",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TBADSYJV": {
+      "file": "chunk-TBADSYJV.js"
+    },
+    "chunk-ODT7ZDVI": {
+      "file": "chunk-ODT7ZDVI.js"
+    },
+    "chunk-S3BEOFVK": {
+      "file": "chunk-S3BEOFVK.js"
+    },
+    "chunk-HYLGRWHL": {
+      "file": "chunk-HYLGRWHL.js"
+    },
+    "chunk-U33TO32B": {
+      "file": "chunk-U33TO32B.js"
+    },
+    "chunk-BMMIBYAN": {
+      "file": "chunk-BMMIBYAN.js"
+    }
+  }
+}

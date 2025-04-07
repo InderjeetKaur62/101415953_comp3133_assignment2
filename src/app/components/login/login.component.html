@@ -1,0 +1,28 @@
+<div class="container mt-4" style="max-width: 400px; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <h2 style="font-family: 'Arial', sans-serif; text-align: center; color: #007BFF;">Login</h2>
+
+  <form (ngSubmit)="onSubmit()">
+    <!-- Email field with icon -->
+    <div class="form-group mb-3">
+      <label for="email" class="d-flex align-items-center">
+        <i class="fa fa-envelope mr-2" style="color: #007BFF;"></i> 
+        Email
+      </label>
+      <input id="email" class="form-control" type="email" [(ngModel)]="email" name="email" placeholder="Enter your email" required />
+    </div>
+
+    <!-- Password field with icon -->
+    <div class="form-group mb-4">
+      <label for="password" class="d-flex align-items-center">
+        <i class="fa fa-lock mr-2" style="color: #007BFF;"></i>
+        Password
+      </label>
+      <input id="password" class="form-control" type="password" [(ngModel)]="password" name="password" placeholder="Enter your password" required />
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary btn-block" style="font-size: 16px;">
+      <i class="fa fa-user-plus mr-2"></i> Login
+    </button>
+  </form>
+</div>

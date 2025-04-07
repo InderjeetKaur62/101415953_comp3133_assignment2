@@ -1,0 +1,18 @@
+<div class="container mt-4" *ngIf="employee">
+  <h2>Employee Details</h2>
+  <ul class="list-group">
+    <li class="list-group-item"><strong>First Name:</strong> {{ employee.first_name }}</li>
+    <li class="list-group-item"><strong>Last Name:</strong> {{ employee.last_name }}</li>
+    <li class="list-group-item"><strong>Email:</strong> {{ employee.email }}</li>
+    <li class="list-group-item"><strong>Gender:</strong> {{ employee.gender }}</li>
+    <li class="list-group-item"><strong>Designation:</strong> {{ employee.designation }}</li>
+    <li class="list-group-item"><strong>Department:</strong> {{ employee.department }}</li>
+    <li class="list-group-item"><strong>Salary:</strong> {{ employee.salary }}</li>
+    <li class="list-group-item"><strong>Date of Joining:</strong> {{ employee.date_of_joining | date }}</li>
+    <li class="list-group-item">
+      <strong>Employee Photo:</strong><br />
+      <img *ngIf="employee.employee_photo" [src]="employee.employee_photo" alt="Employee Photo" class="img-fluid mt-2" width="200" />
+      <span *ngIf="!employee.employee_photo">No photo provided.</span>
+    </li>
+  </ul>
+</div>
